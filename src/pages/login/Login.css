@@ -39,3 +39,27 @@
 .login > p {
   margin-top: 20px;
 }
+@media only screen and (max-width: 600px) {
+  .login > form > input {
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  .login > form > button {
+    width: 267px;
+    height: 40px;
+    font-size: large;
+    color: #fff;
+    background-color: #35185a;
+    border-radius: 5px;
+  }
+  .login > img {
+    object-fit: contain;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

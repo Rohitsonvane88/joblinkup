@@ -1,7 +1,7 @@
 .sidebar {
   position: sticky;
   top: 88px;
-  flex: 0.25;
+  flex: 0.5;
   border-radius: 10px;
   text-align: center;
   height: fit-content;
@@ -90,4 +90,10 @@
 .sidebar_bottom > p {
   font-size: 13px;
   padding-bottom: 18px;
+}
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    position: relative;
+    top: 0;
+  }
 }

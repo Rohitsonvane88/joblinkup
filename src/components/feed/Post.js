@@ -19,7 +19,9 @@ const Post = forwardRef(
     return (
       <div ref={ref} className='post'>
         <div className='post_header'>
-          <Avatar src={photoUrl}>{name[0]} </Avatar>
+          <div>
+            <Avatar src={photoUrl}>{name[0]} </Avatar>
+          </div>
           <div className='post_info'>
             <h2>{name}</h2>
             <p>{description}</p>

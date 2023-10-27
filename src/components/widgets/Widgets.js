@@ -4,7 +4,7 @@ import InfoIcon from "@material-ui/icons/Info";
 import FiberManualRecordIcon from "@material-ui/icons/FiberManualRecord";
 import { Avatar } from "@material-ui/core";
 const Widgets = () => {
-  const newsArticle = (heading, subtitle, avatar) => (
+  const newsArticle = (heading, subtitle, avatar, contact) => (
     <div className='widgets_article'>
       <div className='widgets_articleLeft'>
         {avatar ? (
@@ -20,31 +20,35 @@ const Widgets = () => {
       <div className='widgets_articleRight'>
         <h4>{heading}</h4>
         <p>{subtitle}</p>
+        <p><a style={{ textDecoration: 'none', color: "inherit" }} href={`mailto:${contact}`}>{contact}</a></p>
       </div>
-    </div>
+    </div >
   );
   return (
     <div className='widgets'>
       <div className='widgets_top'>
         <div className='widgets_header'>
-          <h2>Add to your feed</h2>
+          <h2>Contact Contributors</h2>
           <InfoIcon />
         </div>
-        {newsArticle("Ala Hamadi", "Full stack developer", "A")}
+        {newsArticle("Neel Rana", "Full stack developer", "https://avatars.githubusercontent.com/u/88571510?v=4", "neelrana.it20@scet.ac.in")}
         {newsArticle(
-          "Bill Gates",
-          "Co-founder of Microsoft",
-          "https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5f4ebe0c87612dab4f12a597%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D292%26cropX2%3D3684%26cropY1%3D592%26cropY2%3D3987"
+          "Shiv Kadiwala",
+          "Web developer",
+          "https://avatars.githubusercontent.com/u/110624034?v=4",
+          "shivkadiwala.it20@scet.ac.in"
         )}
         {newsArticle(
-          "Elon Musk",
-          "CEO, CTO, and chief designer of SpaceX",
-          "E"
+          "Utsav Desai",
+          "Cyber Security Expert",
+          "https://lh3.googleusercontent.com/a-/ALV-UjVsjc76nDAo0nNKCQ79PybksYAutvKJIIyRj2lTYyl7jw=s72-p-k-rw-no",
+          "utsavdesai.it20@scet.ac.in"
         )}
         {newsArticle(
-          "Steve Jobs",
-          "CEO and co-founder of Apple Inc",
-          "https://cdn.vox-cdn.com/thumbor/DVN7eqE1o8HeBOP-jg15YHTsiLY=/0x0:640x427/1200x800/filters:focal(0x0:640x427)/cdn.vox-cdn.com/assets/1496753/stevejobs.jpg"
+          "Rohit Sonvane",
+          "Software Engineer",
+          "R",
+          "rohitsonavare.it20@scet.ac.in"
         )}
       </div>
       <div className='widgets_bottom'>

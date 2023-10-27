@@ -1,0 +1,10 @@
+@media only screen and (max-width: 600px) {
+  .app_body {
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar {
+    margin: auto;
+    width: 90%;
+  }
+}

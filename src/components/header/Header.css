@@ -1,7 +1,7 @@
 .header {
   background-color: #fff;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   border-bottom: 0.1px solid lightgray;
   padding: 10px;
   width: 100%;
@@ -11,6 +11,8 @@
 }
 .header_left {
   display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .header_left > img {
   object-fit: contain;
@@ -35,4 +37,31 @@
 
 .header_right {
   display: flex;
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+  .header_logo {
+    text-align: center;
+    width: 100%;
+  }
+  .header_logo img {
+    height: auto;
+    max-width: 80%;
+  }
+  .header_left {
+    width: 100%;
+  }
+  .header_search {
+    width: 80%;
+  }
+  .header_right {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 5px;
+  }
 }

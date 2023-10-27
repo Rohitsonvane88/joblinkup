@@ -64,7 +64,7 @@ const Feed = () => {
               onChange={(e) => setMessage(e.target.value)}
             />
             <button onClick={sendPost} type='submit'>
-              Send
+              <img width={"20px"} src="https://cdn-icons-png.flaticon.com/512/60/60525.png" alt="" />
             </button>
           </form>
         </div>

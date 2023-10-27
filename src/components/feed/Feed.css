@@ -29,7 +29,10 @@
 }
 
 .feed_input > form > button {
-  display: none;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
 }
 
 .feed_inputOptions {
@@ -51,4 +54,9 @@
 }
 .feed_inputOption > h4 {
   margin-left: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .feed {
+    margin: 20px;
+  }
 }
