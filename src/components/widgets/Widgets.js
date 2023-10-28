@@ -50,15 +50,27 @@ const Widgets = () => {
           "R",
           "rohitsonavare.it20@scet.ac.in"
         )}
+        {newsArticle(
+          "Vaishnavi Patel",
+          "Software Engineer",
+          "https://media.licdn.com/dms/image/D4D03AQEDwIfVexdVvw/profile-displayphoto-shrink_100_100/0/1669029657519?e=1703721600&v=beta&t=UiQda6eswo_OaUVxwgctMDchYsRXPaPvAN0X8n45dIo",
+          "vaishnavipatel.it20@scet.ac.in"
+        )}
+        {newsArticle(
+          "Dhwani Ladani",
+          "Software Engineer",
+          "D",
+          "dhwaniladani.it20@scet.ac.in"
+        )}
       </div>
       <div className='widgets_bottom'>
         <div className='widgets_header'>
-          <h2>Today’s top courses</h2>
+          <h2>Today’s top news</h2>
           <InfoIcon />
         </div>
-        {newsArticle("Executive Influence", "John Ullmen")}
-        {newsArticle("Customer Service Foundations", "Jeff Toister")}
-        {newsArticle("Communication within Teams", "Daisy Lovelace")}
+        {newsArticle("Executive Influence", "Harsh Bardoliya")}
+        {newsArticle("Customer Service Foundations", "Radheshyam")}
+        {newsArticle("Communication within Teams", "Jay Rathi")}
       </div>
     </div>
   );

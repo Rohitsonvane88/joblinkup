@@ -47,7 +47,6 @@ const Header = () => {
         <HeaderOption
           displayName={user?.displayName}
           avatar={user?.photoURL}
-          title='me'
         />
       </div>
     </div>
