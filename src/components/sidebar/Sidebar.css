@@ -1,7 +1,7 @@
 .sidebar {
   position: sticky;
-  top: 88px;
-  flex: 0.5;
+  top: 110px;
+  flex: 0.25;
   border-radius: 10px;
   text-align: center;
   height: fit-content;
@@ -49,6 +49,7 @@
 .sidebar_number {
   font-weight: bold;
   color: #0a66c2 !important;
+  padding-left: 20px;
 }
 .sidebar_stats {
   padding: 10px;
