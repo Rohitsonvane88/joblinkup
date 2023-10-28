@@ -1,10 +1,12 @@
 @media only screen and (max-width: 600px) {
   .app_body {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  .sidebar {
-    margin: auto;
-    width: 90%;
+  .division {
+    width: 100%;
   }
 }

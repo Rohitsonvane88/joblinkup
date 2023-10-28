@@ -43,6 +43,7 @@
     display: block;
     width: 100%;
     position: relative;
+    padding: 0px;
   }
   .header_logo {
     text-align: center;
@@ -53,7 +54,8 @@
     max-width: 80%;
   }
   .header_left {
-    width: 100%;
+    width: 95%;
+    margin-left: 25px;
   }
   .header_search {
     width: 80%;

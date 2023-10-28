@@ -30,9 +30,5 @@
 }
 @media only screen and (max-width: 600px) {
   .post_buttons {
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 20px;
-    margin-right: 20px;
   }
 }

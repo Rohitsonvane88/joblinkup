@@ -59,4 +59,7 @@
   .feed {
     margin: 20px;
   }
+  .feed_inputOption {
+    padding: 4px;
+  }
 }

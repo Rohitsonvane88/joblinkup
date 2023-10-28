@@ -9,13 +9,13 @@ const Home = () => {
     <>
       <Header />
       <div className='app_body'>
-        <div className="sidebar">
+        <div className="division">
           <Sidebar />
         </div>
-        <div className="sidebar">
+        <div className="division">
           <Feed />
         </div>
-        <div className="sidebar">
+        <div className="division">
           <Widgets />
         </div>
       </div>

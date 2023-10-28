@@ -95,5 +95,7 @@
   .sidebar {
     position: relative;
     top: 0;
+    max-width: 90%;
+    margin: auto;
   }
 }

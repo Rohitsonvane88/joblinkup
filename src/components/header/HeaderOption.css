@@ -20,3 +20,9 @@
   height: 25px !important;
   width: 25px !important;
 }
+
+@media only screen and (max-width: 600px) {
+  .headerOption {
+    margin-right: 0px;
+  }
+}
